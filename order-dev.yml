@@ -5,9 +5,9 @@ spring:
     name: order
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=truw&useSSL=false
+    url: jdbc:mysql://119.29.181.218:3306/SpringCloud_Sell?characterEncoding=truw&useSSL=false
     username: root
-    password: 357315807  
+    password: gejinmysql@#$6033  
 eureka:
   client:
     service-url:
