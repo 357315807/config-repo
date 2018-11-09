@@ -1,5 +1,5 @@
 env:
-  dev1
+  dev
 spring:
   application:
     name: order
@@ -7,8 +7,4 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://119.29.181.218:3306/SpringCloud_Sell?characterEncoding=UTF-8&useSSL=false
     username: root
-    password: gejinmysql@#$6033  
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+    password: gejinmysql@#$6033
